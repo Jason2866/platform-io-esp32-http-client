@@ -5,6 +5,6 @@ author: Uri Shaked
 steps:
   - wait-serial: 'Connected to WiFi'
   - delay: 1000ms
-  - wait-serial: 'This is a test of WiFi!'
+  - wait-serial: 'This is a test of Adafruit WiFi!'
   - wait-serial: 'If you can read this, its working :)'
   - wait-serial: 'disconnecting from server.'
